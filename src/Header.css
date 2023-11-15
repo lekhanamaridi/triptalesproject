@@ -1,48 +1,47 @@
-.header{
-    background-color: black;
-    
-}
-.heading{
-    
-    display: flex;
-}
-.lf{
-    width:200px;
-    margin-right: 70px;
-    margin-left: 0px;
-    
-}
-.text{
-    margin-top: 75px;
-    font-size: 70px;
-    font-family:'Times New Roman', Times, serif;
-    color:orange;
-}
-.main{
-    width: 500px;
-    margin: 50px;
-}
-.button{
-    background-color: black;
-    color: antiquewhite;
-    font-family: cursive;
-    width: 900px;
-    border-radius: 20px;
-}
-.text1{
-    color: antiquewhite;
-    font-size: 40px;
-    font-family: cursive;
-    margin-top: 100px;
-}
-.text2{
-    color: rgb(248, 173, 34);
-    font-size: 40px;
-    font-family: cursive;
-    margin-top: 100px;
-    margin-left: 40px;
-}
-.quote{
-    display: flex;
+.background{
+    background-image: url("./images/main/elephant1.jpg");
+    width: 100%;
+    height: 1900px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: 105%;
+    margin-top: -80px;
 }
 
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.trip{
+    font-family:serif;
+    color: #00FFFF;
+    font-size: 60px;
+}
+.plan{
+    margin-top: 350px;
+    margin-left: 900px;
+    background-color:#241b35;
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    font-family:serif;
+    font-size: 30px;
+    color:#ffc7ff;
+    margin-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px ;
+    border-right: 0pxs;
+}
+.quote{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: -100px;
+    /* margin-left: 700px; */
+    font-size: 30px;
+    font-family: serif;
+    color:#241b35;
+}

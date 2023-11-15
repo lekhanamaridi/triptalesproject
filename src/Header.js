@@ -3,29 +3,25 @@ import logofile from './images/main/logofile.png';
 import main1 from './images/treking/kedarnath-trek 2.jpg';
 import log from './images/main/log.jpg';
 import './Header.css'
-
+import './Header.css';
 function Header()
 {
     return(
-        <div className='header'>
-            <div className='heading'>
-                <img className='lf' src={logofile}></img>
-                <h1 className='text'><i>Trip Tales</i></h1>
+            <div className='background'>
+                <div className='title'>
+                    <div className='trip'>
+                        <h1 >TRIP TALES</h1>
+                    </div>
+                    <div>
+                        <h2 className='quote'>"Travel is not reward for working,<br></br>it's education for living."</h2>
+                    </div>
+                </div>
                 
+                <div>
+                    <button className='plan' type='button'><b>--Plan Your Trip--</b></button>
+                </div>
             </div>
-            <div className='quote'>
-                <img src={main} className='main'></img>
-                <h2 className='text1'>"Take only memories,leave only footprints.."</h2>
-            </div>
-            <div className='quote'>
-                <h2 className='text2'>"Always say yes to new adventures.." </h2>
-                <img className='main' src={main1}></img>
-            </div>
-            <div >
-                <button className='button' type='button'><h2><i> -- Plan Your Trip --</i></h2></button>
-            </div>
-            
-        </div>
+
     );
 }
 export default Header;
