@@ -1,7 +1,6 @@
 import main from './images/pilgrimage/kedarnath 1.jpg';
 import logofile from './images/main/logofile.png';
 import main1 from './images/treking/kedarnath-trek 2.jpg';
-import log from './images/main/log.jpg';
 import './Header.css'
 
 function Header()
