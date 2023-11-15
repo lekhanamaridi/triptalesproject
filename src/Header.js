@@ -10,7 +10,7 @@ function Header()
                 <h1>Trip Tales</h1>
             </div>
             <div>
-                <img src={main}></img>
+                <img src={main} className='main'></img>
             </div>
         </div>
     );
