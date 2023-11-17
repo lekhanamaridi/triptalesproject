@@ -1,9 +1,8 @@
-<<<<<<< HEAD
-=======
+
 import main from './images/pilgrimage/kedarnath 1.jpg';
 import logofile from './images/main/logofile.png';
 import main1 from './images/treking/kedarnath-trek 2.jpg';
->>>>>>> 778a0db107ca72bd0beb033e4127d54ee83b329e
+
 import './Header.css'
 import './Header.css';
 
