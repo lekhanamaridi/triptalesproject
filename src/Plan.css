@@ -1,0 +1,43 @@
+.heading{
+    background-color:#61398fd0;
+    height: 50px;
+    border-radius: 10px;
+    width: 1230px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+.head{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    color:#FFFFFF;
+}
+.image{
+    width: 350px;
+    margin-top: 5px;
+    margin-left: 15px;
+    height:200px;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    color:#61398F;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    margin-top: 0px;
+}
+.allign{
+    display: flex;
+    margin-left: 40px;
+}
+.card{
+    background-color: #D6C6E1;
+    border-radius: 10px;
+    margin: 9px;
+    object-fit: contain;
+    width:400px;
+}

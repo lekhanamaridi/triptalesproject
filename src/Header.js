@@ -1,9 +1,6 @@
-import main from './images/pilgrimage/kedarnath 1.jpg';
-import logofile from './images/main/logofile.png';
-import main1 from './images/treking/kedarnath-trek 2.jpg';
-import log from './images/main/log.jpg';
 import './Header.css'
 import './Header.css';
+
 function Header()
 {
     return(
@@ -17,7 +14,7 @@ function Header()
                     </div>
                 </div>
                 
-                <div>
+                <div className='planbutton'>
                     <button className='plan' type='button'><b>--Plan Your Trip--</b></button>
                 </div>
             </div>

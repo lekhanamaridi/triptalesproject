@@ -1,7 +1,7 @@
 .background{
     background-image: url("./images/main/elephant1.jpg");
     width: 100%;
-    height: 1900px;
+    height:auto;
     object-fit: contain;
     background-repeat: no-repeat;
     background-size: 105%;
@@ -23,7 +23,6 @@
 }
 .plan{
     margin-top: 350px;
-    margin-left: 900px;
     background-color:#241b35;
     width: 350px;
     height: 40px;
@@ -31,10 +30,16 @@
     font-family:serif;
     font-size: 30px;
     color:#ffc7ff;
-    margin-bottom: 1px;
+    margin-bottom: 20px;
     border-top: 0px;
     border-left: 0px ;
-    border-right: 0pxs;
+    border-right: 0px;
+}
+.planbutton{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
 }
 .quote{
     text-align: center;
