@@ -1,25 +1,30 @@
 import Header from './Header';
-import Plan from './Plan';
-import Wildlife from './Wildlife';
-import Heritage from './Heritage';
-import Piligrimage from './Piligrimage';
-import Beaches from './Beaches';
-import Trecking from './Trecking';
-import Funworld from './Funworld';
+
+import { BrowserRouter } from 'react-router-dom';
+import Nav from './Nav';
 import './App.css';
+import Route1 from './Route';
 
 
 function App() {
   return (
     <div>
-        <Header></Header>
-        <Plan></Plan>
-        <Wildlife></Wildlife>
+      <BrowserRouter>
+        <Nav></Nav>
+        {/* <Header></Header> */}
+        <Route1></Route1>
+        {/* <Wildlife></Wildlife>
         <Heritage></Heritage>
         <Piligrimage></Piligrimage>
         <Beaches></Beaches>
         <Trecking></Trecking>
         <Funworld></Funworld>
+        <Bandipur></Bandipur>
+        <Wayanad></Wayanad>
+        <Khanjen></Khanjen>
+        <Gir></Gir>
+        <Jim></Jim> */}
+        </BrowserRouter>
     </div>
   );
 }

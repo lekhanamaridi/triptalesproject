@@ -42,15 +42,16 @@
     display: flex;
 }
 .bkgrnd{
-    background-color:#E9E4ED;
+    background-color:white;
     border-radius: 5px;
 }
 .view{
-    background-color:#E9E4ED;
+    background-color:transparent;
     height: 25px;
     width: 100px;
     font-size: 15px;
     margin-right: 40px;
     margin-top: 190px;
     text-align: center;
+    border: 2px ;
 }

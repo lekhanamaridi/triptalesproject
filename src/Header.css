@@ -1,11 +1,11 @@
 .background{
     background-image: url("./images/main/elephant1.jpg");
     width: 100%;
-    height:auto;
+    height:600px;
     object-fit: contain;
     background-repeat: no-repeat;
     background-size: 105%;
-    margin-top: -80px;
+    margin-top: -50px;
 }
 
 .title{
@@ -18,11 +18,18 @@
 
 .trip{
     font-family:serif;
-    color: #00FFFF;
-    font-size: 60px;
+    color:#1d2e3d;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 50px;
+    padding-top: 100px;
+    text-shadow: -2px -2px 10px rgba(248, 248, 250, 0.726)
 }
-.plan{
-    margin-top: 350px;
+/* .plan{
+    
     background-color:#241b35;
     width: 350px;
     height: 40px;
@@ -40,13 +47,64 @@
     justify-content: center;
     display: flex;
 
-}
-.quote{
+} */
+/* .quote{
     text-align: center;
     margin-bottom: 0px;
     margin-top: -100px;
-    /* margin-left: 700px; */
+     margin-left: 700px; 
     font-size: 30px;
     font-family: serif;
     color:#241b35;
+} */
+.nav{
+    display: flex;
+    background-color:  #D6C6E1 !important;
+    height: 50px;
+}
+.user{
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 380px;
+}
+.navelement{
+    margin-right: 70px;
+    color:#1d2e3d;
+    margin-top: 5px;
+    margin-left: 70px;
+    background-color:transparent;
+    /* height: 50px;
+    width: 100px; */
+    border: 0;
+    cursor: pointer;
+
+}
+.about{
+    margin-right: 70px;
+    color:whitesmoke;
+    margin-top: 100px;
+    margin-left: 70px;
+    background-color:#0d6e6e54;
+    height: 50px;
+    width: 100px;
+
+}
+.contact{
+    margin-right: 70px;
+    color: whitesmoke;
+    margin-top: 100px;
+    margin-left: 70px;
+    background-color: #0d6e6e54;
+    height: 50px;
+    width: 100px;
+
+}
+.categories{
+    margin-right: 70px;
+    color: whitesmoke;
+    /* margin-top: 100px; */
+    margin-left: 70px;
+    background-color: #0d6e6e54;
+    height: 50px;
+    width: 100px;
 }

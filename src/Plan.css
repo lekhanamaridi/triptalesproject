@@ -1,9 +1,9 @@
 .heading{
     background-color:#61398fd0;
     height: 50px;
-    border-radius: 10px;
-    width: 1230px;
-    margin-left: 55px;
+    border-radius: 100px;
+    width: 1130px;
+    margin-left: 100px;
     margin-bottom: 10px;
 }
 .head{
@@ -13,31 +13,32 @@
     color:#FFFFFF;
 }
 .image{
-    width: 350px;
+    width: 280px;
     margin-top: 5px;
-    margin-left: 15px;
+    margin-left: 25px;
     height:200px;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 100%;
+    overflow: hidden;
 
 }
 .text{
     font-family: 'Times New Roman', Times, serif;
     margin-left: 10px;
     color:#61398F;
-    width: 400px;
+    width: 350px;
     height: 40px;
     text-align: center;
     margin-top: 0px;
 }
 .allign{
     display: flex;
-    margin-left: 40px;
+    margin-left: 90px;
 }
 .card{
     background-color: #D6C6E1;
     border-radius: 10px;
-    margin: 9px;
+    margin: 15px;
     object-fit: contain;
-    width:400px;
+    width:350px;
 }

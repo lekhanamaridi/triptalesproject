@@ -1,3 +1,5 @@
+import { Outlet,Link } from 'react-router-dom';
+
 import image1 from './images/wildlife/bandipur-national-park main.jpg';
 import image2 from './images/wildlife/gir-national-park main.jpg';
 import image3 from './images/wildlife/jim-corbett-national-park main.jpg';
@@ -16,19 +18,25 @@ function Wildlife(){
             <div className='allign1'>
                 <img className='image1' src={image1}></img>
                 <h1 className='name'>Bandipur National Park - Karnataka</h1>
+                <Link to='/bandipur'>
                 <button className='view'type='button'>View</button>
+                </Link>
             </div>
             <div className='allign1'>
                 <img className='image1' src={image2}></img>
-                <h1 className='name'>Gir National Park & Wildlife Sanctuary - Gujarath </h1>
+                <h1 className='name'>Gir National Park - Gujarath </h1>
+                <Link to='/gir'>
                 <button className='view' type='button'>View</button>
+                </Link>
             </div>
             </div>
             <div className='a'>
             <div className='allign1'>
                 <img className='image1' src={image3}></img>
                 <h1 className='name'>Jim Corbett National Park - Uttarkhand</h1>
+                <Link to='/jim'>
                 <button className='view' type='button'>View</button>
+                </Link>
             </div>
             <div className='allign1'>
                 <img className='image1' src={image4}></img>
@@ -40,12 +48,16 @@ function Wildlife(){
             <div className='allign1'>
                 <img className='image1' src={image5}></img>
                 <h1 className='name'>Khangechendzonga National Park - Sikkim</h1>
+                <Link to='/khanjen'>
                 <button className='view' type='button'>View</button>
+                </Link>
             </div>
             <div className='allign1'> 
                 <img className='image1' src={image6}></img>
                 <h1 className='name'>Wayanad Wildlife Sanctuary - Kerala</h1>
+                <Link to='/wayanad'>
                 <button className='view' type='button'>View</button>
+                </Link>
             </div>
             </div>
         </div>
