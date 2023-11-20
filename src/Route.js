@@ -17,7 +17,7 @@ import Header from './Header';
 function Route1(){
     return(
         <Routes>
-            <Route path='/header' element={<Header></Header>}></Route>
+            <Route path='/' element={<Header></Header>}></Route>
             <Route path='/plan' element={<Plan></Plan>}></Route>
             <Route path='/wildlife' element={<Wildlife></Wildlife>}></Route>
             <Route path='/heritage' element={<Heritage></Heritage>}></Route>

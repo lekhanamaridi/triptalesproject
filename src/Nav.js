@@ -4,7 +4,7 @@ import user from './images/main/user.png';
 function Nav(){
     return(
         <div className='nav'>
-                <Link to='/header'>
+                <Link to='/'>
                 <div><button className='navelement' type='button'><h3>Home</h3></button></div>
                 </Link>
                 <div><button className='navelement' type='button'><h3>About</h3></button></div>
