@@ -1,0 +1,39 @@
+.description{
+    font-size: 18px;
+    font-family: cursive;
+
+}
+.contentimg{
+    width: 400px;
+    height: 250px;
+    margin-right: 40px;
+    margin-left: 130px;
+    box-shadow: 2px 2px 20px #61398F;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* gap: 30px; */
+}
+.Name{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 0px;
+    color: #61398fd0;
+    text-shadow: 1px 1px 0px black ;
+}
+.complete{
+    background-color:rgba(247, 242, 252, 0.836);
+    margin: 0px;
+}
+.contentimg:hover{
+    transition: cubic-bezier(20px);
+    scale:1.09;
+}
+.headtag{
+    font-size: 22px;
+    font-family: cursive;
+}
+.position{
+    padding-left: 10px;
+}

@@ -1,0 +1,50 @@
+.contactbackground{
+    background-color: white;
+    color: black;
+    height: 100vh;
+}
+.contactall{
+    display: flex;
+}
+.heading2{
+    margin: 0;
+    margin-left: 350px;
+    padding-top: 100px;
+    font-size: 20px;
+    font-family: Georgia;
+}
+.context{
+    width: 400px;
+    height: 40px;
+    box-shadow: 0px 0px 5px grey;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 200px;
+}
+.submitbutton{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: 15px;
+    font-family: Georgia;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px grey;
+}
+.phonealign{
+    display: flex;
+}
+.phoneimg{
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.phoneno{
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    margin-top: 30px;
+    margin-left: 20px;
+}

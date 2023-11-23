@@ -9,52 +9,63 @@ import adventure from './images/adventure/adventure park.png';
 import './Plan.css';
 
 function plan(){
+
+    let categoriesList = [{
+        "linkTo" : "/wildlife",
+        "image" : wildlife,
+        "categoryName" : "Wildlife"
+    },
+    {
+        "linkTo" : '/heritage',
+        "image" : heritage,
+        "categoryName" : "Heritage"
+    },
+    {
+        "linkTo" : '/trecking',
+        "image" : trecking,
+        "categoryName" : "Trekking"
+    },
+    {
+        "linkTo" : '/beaches',
+        "image" : beaches,
+        "categoryName" : "Beaches"
+    },
+    {
+        "linkTo" : '/piligrimage',
+        "image" : piligrim,
+        "categoryName" : "Piligrimage"
+    },
+    {
+        "linkTo" : '/funworld',
+        "image" :  adventure,
+        "categoryName" : "Fun World"
+    }
+
+];
+
+
     return(
         <div className='bkgrnd'>
             <div className='heading'>
                 <h1 className='head'>Top Categories</h1>
             </div>
             <div className='allign'>
-            <div className='card'>
-                <Link to='/wildlife'>
-                <img className='image' src={wildlife}></img>
-                </Link>
-                <h1 className='text'>Wildlife</h1>
+            {
+            categoriesList.map((cat)=>{
+                return <>
+                <div className='card'>
+                    <Link to={cat.linkTo}>
+                    <img className='image' src={cat.image}></img>
+                    </Link>
+                    <h1 className='text'>{cat.categoryName}</h1>
+                </div>
+                </>
+            })}
             </div>
-            <div className='card'>
-                <Link to='/heritage'>
-                <img className='image' src={heritage}></img>
-                </Link>
-                <h1 className='text'>Heritage</h1>
+            
+                
+           
             </div>
-            <div className='card'>
-                <Link to='/trecking'>
-                <img className='image' src={trecking}></img>
-                </Link>
-                <h1 className='text'>Trecking</h1>
-            </div>
-            </div>
-            <div className='allign'>
-            <div className='card'>
-                <Link to='/beaches'>
-                <img className='image' src={beaches}></img>
-                </Link>
-                <h1 className='text'>Beaches</h1>
-            </div>
-            <div className='card'>
-                <Link to='/piligrimage'>
-                <img className='image' src={piligrim}></img>
-                </Link>
-                <h1 className='text'>Piligrimage</h1>
-            </div>
-            <div className='card'>
-                <Link to='/funworld'>
-                <img className='image' src={adventure}></img>
-                </Link>
-                <h1 className='text'>Fun World</h1>
-            </div>
-            </div>
-        </div>
     );
 }
 export default plan;

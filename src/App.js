@@ -11,8 +11,11 @@ function App() {
     <div>
       <BrowserRouter>
         <Nav></Nav>
+        {/* <img src={require('./images/adventure/adventure park.png')}></img> */}
         {/* <Header></Header> */}
+        <div className='route'>
         <Route1></Route1>
+        </div>
         {/* <Wildlife></Wildlife>
         <Heritage></Heritage>
         <Piligrimage></Piligrimage>
@@ -24,6 +27,7 @@ function App() {
         <Khanjen></Khanjen>
         <Gir></Gir>
         <Jim></Jim> */}
+    
         </BrowserRouter>
     </div>
   );
