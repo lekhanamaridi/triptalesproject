@@ -5,6 +5,7 @@
 }
 .contactall{
     display: flex;
+    flex-wrap: wrap;
 }
 .heading2{
     margin: 0;
