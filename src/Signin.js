@@ -39,10 +39,10 @@ function Signin(){
             <div>
                 <h2 className='name1'><i>Trip Tales</i></h2>
                 <div>
-                    <input className='input' type="text" placeholder="User name Or E-mail" onChange={(val)=>{setname(val.target.value)}}></input>
+                    <input className='input' type="text" placeholder="User name Or E-mail" required onChange={(val)=>{setname(val.target.value)}}></input>
                 </div>
                 <div>
-                    <input className='input' type="password" placeholder="Password" onChange={(val)=>{setpassword(val.target.value)}}></input>
+                    <input className='input' type="password" placeholder="Password" required onChange={(val)=>{setpassword(val.target.value)}}></input>
                 </div>
                 <button type='button' className='name2'  onClick={senddata}>Log In</button>
             </div>
