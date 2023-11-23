@@ -43,16 +43,16 @@ function SignUp(){
             <div>
                 <h2 className='name1'><i>Trip Tales</i></h2>
                 <div>
-                    <input className='input' type="text" placeholder="Full Name" onChange={(val)=>{setname(val.target.value)}}></input>
+                    <input className='input' type="text" placeholder="Full Name" required onChange={(val)=>{setname(val.target.value)}}></input>
                 </div>
                 <div>
-                    <input className='input' type="number" placeholder="Phone Number" onChange={(val)=>{setphone(val.target.value)}}></input>
+                    <input className='input' type="number" placeholder="Phone Number" required onChange={(val)=>{setphone(val.target.value)}}></input>
                 </div>
                 <div>
-                    <input className='input' type="text" placeholder="E-mail" onChange={(val)=>{setemail(val.target.value)}}></input>
+                    <input className='input' type="text" placeholder="E-mail" required onChange={(val)=>{setemail(val.target.value)}}></input>
                 </div>
                 <div>
-                    <input className='input' type="password" placeholder="Password" onChange={(val)=>{setpassword(val.target.value)}}></input>
+                    <input className='input' type="password" placeholder="Password" required onChange={(val)=>{setpassword(val.target.value)}}></input>
                 </div>
                 <div>
                     <button  className='name2' onClick={senddata}>Sign Up</button>

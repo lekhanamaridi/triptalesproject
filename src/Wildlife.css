@@ -17,15 +17,7 @@
     align-items: center;
     border-radius: 20px;
 }
-/* .allign1{
-    display: flex;
-    margin: 8px;
-    background-color:  #D6C6E1;
-    border-radius: 10px;
-    height:220px;
-    width: 500px;
-    margin-left: 105px;
-} */
+
 .name{
     margin-left:20px ;
     /* margin-top: 60px; */
@@ -45,6 +37,8 @@
     /* margin-left: 150px; */
     margin-bottom: 0px;
     border-radius: 30px;
+    width: 1250px;
+    margin-left: 50px;
 
 }
 .a{
